@@ -1,5 +1,5 @@
 # Ship Detection in Satelite Images
-In this repo I present my solution for the Airbus Ship Detection challenge on Kaggle https://www.kaggle.com/c/airbus-ship-detection
+In this repo I present my solution for the ![Airbus Ship Detection challenge](https://www.kaggle.com/c/airbus-ship-detection) on Kaggle.
 There was a data leakage in this competition which allowed for almost perfect scores. However, I used this comptetion as an introduction to computer vision and learned a lot about neural networks. 
 
 ## Approach
@@ -12,4 +12,3 @@ A visualization of the network can be found here:
 
 *Put tensorflow graph generation*
 
-![Test picture](assets/test.png)
