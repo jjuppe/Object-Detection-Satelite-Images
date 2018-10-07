@@ -17,9 +17,8 @@ It consists of three convolution blocks. Each block contains two Convolution lay
 The instance segmentation model was inspired by [TernausNet](https://arxiv.org/abs/1801.05746). An implementation of the U-net architecture can be found [here](https://github.com/ternaus/TernausNet). The architecture of the U-net looks like this: 
 ![Network visualization](assets/TernausNet.png)
 
-In the paper the authors argue that a U-net architecture can be improved with a pre-trained encoder. In the paper, the authors propose a VGG-11 encoder. However, since Keras offers a VGG16 pre-trained on the ImageNet dataset, I decided to use this encoder. The final architecture looks like this:
+In the paper the authors argue that a U-net architecture can be improved with a pre-trained encoder. The authors propose a VGG-11 encoder and that networks with a pre-trained encoder converge faster than networks without. However, since Keras offers a VGG16 pre-trained on the ImageNet dataset, I decided to use this encoder. The final architecture looks like this:
 ![U-net architecture visualization](assets/segmentation_model.png)
-
 
 
 
